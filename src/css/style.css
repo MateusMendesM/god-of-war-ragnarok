@@ -120,9 +120,12 @@ body {
 
 
 @media (max-width: 768px) {
+    body {
+        background-color: black;
+    }
+
     .background-video iframe {
-        width: 190%;
-        height: 100%;
+        display: none;
     }
 
     .content {
